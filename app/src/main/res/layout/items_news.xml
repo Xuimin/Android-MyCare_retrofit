@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="@dimen/space_5"
+    app:cardElevation="@dimen/space_5"
+    app:cardMaxElevation="@dimen/space_5"
+    app:cardPreventCornerOverlap="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/space_10">
+
+        <ImageView
+            android:id="@+id/iv_news_img"
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:src="@drawable/img_news"
+            android:scaleType="centerCrop"
+            android:layout_margin="@dimen/space_10" />
+
+        <TextView
+            android:id="@+id/tv_news_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/iv_news_img"
+            android:text="@string/dummy_title"
+            android:textSize="@dimen/font_15"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/space_10" />
+
+        <TextView
+            android:id="@+id/tv_news_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_news_title"
+            android:layout_toEndOf="@id/iv_news_img"
+            android:text="@string/dummy_description"
+            android:textSize="@dimen/font_10"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/space_5" />
+
+        <View
+            android:id="@+id/news_divider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_height"
+            android:layout_below="@id/iv_news_img"
+            android:background="@color/on_primary" />
+
+        <TextView
+            android:id="@+id/tv_news_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/news_divider"
+            android:text="@string/dummy_date"
+            android:textSize="@dimen/font_10"
+            android:textAlignment="textEnd"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/space_5"
+            android:layout_marginEnd="@dimen/space_10" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

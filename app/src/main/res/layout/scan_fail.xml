@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/space_20">
+
+    <ImageView
+        android:id="@+id/ic_success"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_fail"
+        android:src="@drawable/ic_fail"
+        android:layout_centerHorizontal="true"
+        app:tint="@color/red_fill"
+        android:padding="@dimen/space_5"
+        android:layout_marginBottom="@dimen/space_10" />
+
+    <TextView
+        android:id="@+id/tv_not_success"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ic_success"
+        android:text="@string/fail"
+        android:textAlignment="center"
+        android:textSize="@dimen/font_title"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+

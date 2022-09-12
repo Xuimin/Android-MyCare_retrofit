@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center_vertical"
+    tools:context=".ui.splash.SplashActivity">
+
+    <TextView
+        android:id="@+id/tv_welcome_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to"
+        android:textSize="@dimen/font_25"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/space_10" />
+
+    <TextView
+        android:id="@+id/tv_app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="@dimen/font_30"
+        android:textColor="@color/primary"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv_app_logo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/logo_height"
+        app:srcCompat="@drawable/mycare_logo"
+        android:layout_marginTop="@dimen/space_20" />
+
+</LinearLayout>

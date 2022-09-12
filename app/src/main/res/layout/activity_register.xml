@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/background"
+            tools:context=".ui.LoginActivity">
+
+            <ImageView
+                android:id="@+id/iv_app_logo"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/logo_height_sm"
+                app:srcCompat="@drawable/mycare_logo"
+                android:layout_marginTop="@dimen/top_spacing" />
+
+            <TextView
+                android:id="@+id/tv_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/register"
+                android:textSize="@dimen/font_title"
+                android:textColor="@color/black"
+                android:textAllCaps="true"
+                android:layout_marginTop="@dimen/space_10"
+                android:layout_gravity="center" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/et_name"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="@dimen/input_width"
+                android:layout_height="wrap_content"
+                android:hint="@string/fullname"
+                android:inputType="textPersonName"
+                android:layout_marginTop="@dimen/space_5"
+                android:layout_gravity="center">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_name_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_person"
+                    android:drawablePadding="@dimen/space_15"
+                    android:paddingTop="@dimen/space_10"
+                    android:paddingBottom="@dimen/space_10" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/et_phone"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="@dimen/input_width"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone"
+                android:layout_marginTop="@dimen/space_5"
+                android:layout_gravity="center"
+                app:prefixText="+60"
+                app:prefixTextColor="@color/primary">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_phone_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:drawableStart="@drawable/ic_phone"
+                    android:drawablePadding="@dimen/space_15"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="@dimen/input_width"
+                android:layout_height="wrap_content"
+                android:hint="@string/state_location"
+                android:layout_marginTop="@dimen/space_5"
+                android:layout_marginBottom="@dimen/space_5"
+                android:layout_gravity="center">
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none"
+                    android:drawableStart="@drawable/ic_current_location"
+                    android:drawablePadding="@dimen/space_15"
+                    android:drawableTint="?attr/colorControlNormal"
+                    android:paddingTop="@dimen/space_10"
+                    android:paddingBottom="@dimen/space_10" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/et_password"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="@dimen/input_width"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                app:passwordToggleEnabled="true"
+                android:layout_gravity="center">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_pass_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:drawableStart="@drawable/ic_password"
+                    android:drawablePadding="@dimen/space_15"
+                    android:paddingTop="@dimen/space_10"
+                    android:paddingBottom="@dimen/space_10" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/et_confirm_pass"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="@dimen/input_width"
+                android:layout_height="wrap_content"
+                android:hint="@string/confirm_pass"
+                app:passwordToggleEnabled="true"
+                android:layout_marginTop="@dimen/space_5"
+                android:layout_gravity="center">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_confirm_pass_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:drawableStart="@drawable/ic_confirm_pass"
+                    android:drawablePadding="@dimen/space_15"
+                    android:paddingTop="@dimen/space_10"
+                    android:paddingBottom="@dimen/space_10" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="@dimen/btn_width"
+                android:layout_height="wrap_content"
+                android:text="@string/register"
+                android:layout_marginTop="@dimen/space_5"
+                android:layout_gravity="center" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:paddingBottom="@dimen/space_50">
+
+                <TextView
+                    android:id="@+id/tv_to_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/to_login"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="@dimen/space_5" />
+
+                <TextView
+                    android:id="@+id/tv_login_now"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login_now"
+                    android:textColor="@color/primary"
+                    android:onClick="Login"
+                    android:layout_marginTop="@dimen/space_5"
+                    android:layout_marginStart="@dimen/space_5" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</layout>
+

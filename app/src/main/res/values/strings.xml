@@ -1,0 +1,240 @@
+<resources>
+    <!-- WELCOMING -->
+    <string name="app_name">MyCare</string>
+    <string name="welcome_to">Welcome to,</string>
+    <string name="welcome_back_to">Welcome back to,</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="or_other_method">Or connect with</string>
+
+    <!-- USER DETAILS -->
+    <string name="username">John Doe</string>
+    <string name="user_name">johndoe</string>
+    <string name="user_ic">XXXXXX-XX-XXXX</string>
+    <string name="user_state_location">Pulau Pinang, Malaysia</string>
+    <string name="user_address">2, Lebuh Acheh, Georgetown...</string>
+    <string name="user_email">johndoe@gmail.com</string>
+    <string name="user_contact">+60-XXXXXXXXX</string>
+    <string name="user_risk">Low Risk No Symptom</string>
+    <string name="user_status">Partially Vaccinated</string>
+
+    <!-- FORGOT PASSWORD -->
+    <string name="forgot_pass">Forgot Password</string>
+    <string name="get_code">Get Code</string>
+
+    <!-- REGISTER -->
+    <string name="to_register">Don\'t Have An Account Yet?</string>
+    <string name="register_now"><u>Register Here.</u></string>
+
+    <!-- LOGIN -->
+    <string name="to_login">Already Have An Account?</string>
+    <string name="login_now"><u>Login Now!</u></string>
+
+    <!-- BUTTON TEXT -->
+    <string name="submit">Submit</string>
+    <string name="confirm">Confirm</string>
+    <string name="close">Close</string>
+    <string name="save">Save</string>
+
+    <!-- INPUT FIELD/REQUIRED DETAILS -->
+    <string name="ic">IC/Passport No.</string>
+    <string name="state_location">State</string>
+    <string name="address">Address</string>
+    <string name="contact">Contact No.</string>
+    <string name="fullname">Fullname</string>
+    <string name="name">Username</string>
+<!--    <string name="email">Email</string>-->
+    <string name="phone">Phone No.</string>
+    <string name="password">Password</string>
+    <string name="confirm_pass">Confirm Password</string>
+    <string name="new_pass">New Password</string>
+    <string name="confirm_new_pass">Confirm New Password</string>
+    <string name="place">Place</string>
+
+    <!-- FRAGMENT PAGES -->
+    <string name="home">Home</string>
+    <string name="statistic">Statistics</string>
+    <string name="check_in">Check-In</string>
+    <string name="vaccination">Vaccination</string>
+    <string name="profile">Profile</string>
+
+    <!-- ACTIVITY TITLE -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="details">My Details</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="history">History</string>
+    <string name="helpdesk">Helpdesk</string>
+    <string name="FAQ">FAQ</string>
+    <string name="health_assessment">Health Assessment</string>
+    <string name="health_assessment_u"><u>Health Assessment >></u></string>
+    <string name="logout">Logout</string>
+
+    <!-- ACTIVITY SUBTITLE -->
+    <string name="call_helpline">Should I Call \nHelpline?</string>
+    <string name="news">News</string>
+    <string name="prevention">Prevention</string>
+    <string name="make_appointment">Make Appointment</string>
+    <string name="vaccine_cert">Vaccination Certificate</string>
+    <string name="verify_acc">Verify Account</string>
+
+    <!-- VERIFIED? -->
+    <string name="verified">Verified</string>
+    <string name="not_verified">Not Verified</string>
+
+    <!-- HEALTH ASSESSMENT QUESTIONS -->
+    <string name="question">Questions</string>
+    <string name="question1">1. Do you have 2 or more symptoms as listed below?</string>
+    <string name="question1_symptom">
+        <li>Fever</li> \n
+        <li>Shivering/Chills</li> \n
+        <li>Headache</li> \n
+        <li>Sore Throat</li> \n
+        <li>Nausea/Vomiting</li> \n
+        <li>Fatigue</li> \n
+        <li>Runny Nose</li> \n
+    </string>
+
+    <string name="question2">2. Do you have any other symptoms as listed below?</string>
+    <string name="question2_symptom">
+        <li>Cough</li> \n
+        <li>Difficulty in Breathing</li> \n
+        <li>Loss of taste or smell</li> \n
+    </string>
+
+    <string name="question3">3. Have you attended any event/areas associated with COVID-19 cluster?</string>
+    <string name="question4">4. Have you travelled abroad withing the last 10 days?</string>
+    <string name="question5">5. Have you has close contact with any confirmed or suspect COVID-19 people within the last 10 days?</string>
+
+    <!-- OPTIONS -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- STATISTICS -->
+    <string name="Malaysia">Malaysia</string>
+    <string name="global">Global</string>
+    <string name="last_updated">Last Updated</string>
+
+    <!-- CASES -->
+    <string name="total_confirm_cases">Total Confirmed \nCases</string>
+    <string name="confirm_cases">Confirmed Cases</string>
+    <string name="active_cases">Active Cases</string>
+    <string name="death_cases">Death Cases</string>
+    <string name="recover_cases">Recovered Cases</string>
+    <string name="amount_cases">123,000+</string>
+
+    <!-- CHECK-IN -->
+    <string name="current_location">Current Location</string>
+    <string name="risk_status">COVID-19 Risk Status</string>
+    <string name="vaccine_status">COVID-19 Vaccination Status</string>
+    <string name="my_location">Georgetown</string>
+    <string name="my_risk">Lorem ispsum Dolor Sit Amer, Consectatour Elit</string>
+    <string name="my_vaccine">Lorem ispsum Dolor Sit Amer, Consectatour Elit</string>
+    <string name="success">You have Successfully \nCheck-in!</string>
+    <string name="fail">Check-in Unsuccessful! \nPlease Try Again.</string>
+
+    <!-- PREVENTION -->
+    <string name="social_distancing">Social Distancing</string>
+    <string name="wash_hand">Wash Hands Regularly</string>
+    <string name="wear_mask">Wear Mask When You Go Out</string>
+
+    <!-- VACCINE DETAILS -->
+    <string name="date_time_dose1">1 January 2022 \t 01:52PM</string>
+    <string name="date_time_dose2">1 April 2022 \t 03:52PM</string>
+    <string name="date_time_booster">-</string>
+    <string name="date_dose1">1 January 2022</string>
+    <string name="time_dose1">01:52PM</string>
+    <string name="date_dose2">1 April 2022</string>
+    <string name="time_dose2">03:52PM</string>
+    <string name="type_dose1">Pfizer</string>
+    <string name="type_dose2">Pfizer</string>
+    <string name="type_dose1_one">Pfizer (1st Dose)</string>
+    <string name="type_dose2_two">Pfizer (2nd Dose)</string>
+    <string name="type_booster">-</string>
+    <string name="location_dose1">Lorem ispsum Dolor Sit Amer, Consectatour Elit</string>
+    <string name="location_dose2">Lorem ispsum Dolor Sit Amer, Consectatour Elit</string>
+    <string name="location_booster">-</string>
+
+    <!-- VACCINE REQUIREMENTS -->
+    <string name="date_time">Date/Time</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="type">Type</string>
+    <string name="location">Location</string>
+    <string name="dose1">1st Dose</string>
+    <string name="dose2">2nd Dose</string>
+    <string name="booster">Booster</string>
+
+    <!-- VERIFY ACCOUNT -->
+    <string name="verify_details">You can only verify your account once. Make sure all details are correct before submitting.</string>
+    <string name="front_back">(Front &amp; Back)</string>
+
+    <!-- FAQ QUESTIONS AND ANSWERS -->
+    <string name="faq1">What to do if I was close contact to a COVID-19 person?</string>
+    <string name="faq1_answer">We encourage you to do a self test, and stay quarantine for at least 5 days. However, if you have any symptom you may go for a check up at the hospital.</string>
+    <string name="faq2">I have took my booster, but my status has yet to update. What should I do?</string>
+    <string name="faq2_answer">You can contact our customer service by going to the helpdesk (menu icon > helpdesk) and submit a request to us. We\'ll get back to you as soon as possible.</string>
+    <string name="faq3">There is a problem with the QR scanner. What should I do?</string>
+    <string name="faq3_answer">You can go to your device settings and check whether you have allow camera. If this doesn\'t solve the problem, try refreshing your device.</string>
+    <string name="faq4">Should I report to the hospital if I was tested COVID-19 positive?</string>
+    <string name="faq4_answer">Yes, you should. Remember to bring along your self test kit and do another check up at the hospital. Please do not go anywhere else to prevent the spread of COVID-19.</string>
+    <string name="faq5">What should I take note before going for my vaccine dose?</string>
+    <string name="faq5_answer">Drink plenty of water and have a good night rest is the most essential thing to do.</string>
+    <string name="faq6">I feel pain on my arm after taking my vaccine. Is it normal?</string>
+    <string name="faq6_answer">It\'s normal to feel a little pain after taking the vaccine. However, if the pain doesn\'t subside. Please go to the hospital and have a check up.</string>
+    <string name="faq7">Can I walk in for my booster dose?</string>
+    <string name="faq7_answer">Yes, you could for some places like (). This is only valid for your booster dose and 1 month after your 2nd vaccine dose.</string>
+
+    <!-- HISTORY -->
+    <string name="fs">Forward School</string>
+    <string name="fs_address">2, Lebuh Acheh 10300 George Town, Penang, Malaysia</string>
+    <string name="checkin_date">1 April 2022</string>
+    <string name="checkin_time">09.00AM</string>
+
+    <!-- EXTRA PLACES EXAMPLES (NOT USED) -->
+    <string name="komtar">Komtar</string>
+    <string name="avenue">1st Avenue</string>
+    <string name="qb">Queensbay Mall</string>
+    <string name="gurney_paragon">Gurney Paragon</string>
+    <string name="gurney_plaza">Gurney Plaza</string>
+    <string name="food_court">ABC Food Court</string>
+    <string name="sunshine">Sunshine Square</string>
+    <string name="giant">Giant Mall</string>
+    <string name="qb_sushi_king">Sushi King, Queensbay Mall</string>
+
+    <!-- NEWS DUMMY TEXT -->
+    <string name="dummy_title">Egestas, habitant dolor vulputate malesuada viverra.</string>
+    <string name="dummy_description">Urna. Nec taciti dapibus porttitor quis elit nisi, blandit pharetra imperdiet. Vitae natoque sit posuere magna cras et curabitur ullamcorper erat. Dictumst suscipit. Elementum lacus mus potenti.</string>
+    <string name="dummy_date">1 April 2022</string>
+
+    <!-- VACCINE TYPE -->
+    <string-array name="vaccine_type">
+        <item name="pfizer">Pfizer</item>
+        <item name="sinovac">Sinovac</item>
+        <item name="az">AstraZeneca</item>
+    </string-array>
+
+    <!-- LOCATION TYPE -->
+    <string-array name="location_type">
+        <item name="perlis">Perlis</item>
+        <item name="kedah">Kedah</item>
+        <item name="kelantan">Kelantan</item>
+        <item name="pulau_pinang">Pulau Pinang</item>
+        <item name="terengganu">Terengganu</item>
+        <item name="perak">Perak</item>
+        <item name="pahang">Pahang</item>
+        <item name="selangor">Selangor</item>
+        <item name="negeri_sembilan">Negeri Sembilan</item>
+        <item name="melaka">Melaka</item>
+        <item name="johor">Johor</item>
+        <item name="sarawak">Sarawak</item>
+        <item name="sabah">Sabah</item>
+    </string-array>
+    <string name="penang">Pulau Pinang</string>
+
+    <!-- DETAILS -->
+    <string name="notice">Please take note: Once you have verified your account, you will no longer have the permission to edit your name and IC/Passport no. details</string>
+
+    <!-- STATUS UPDATE -->
+    <string name="status_update">Last Updated</string>
+    <string name="today">1 May 2022 11:11AM</string>
+</resources>

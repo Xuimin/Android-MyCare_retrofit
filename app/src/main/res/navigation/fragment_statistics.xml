@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/tab_global"
+        android:name="com.example.tracingapp.ui.fragment.statistics.GlobalFragment"
+        android:label="@string/global"
+        tools:layout="@layout/fragment_global" />
+
+    <fragment
+        android:id="@+id/tab_malaysia"
+        android:name="com.example.tracingapp.ui.fragment.statistics.MalaysiaFragment"
+        android:label="@string/Malaysia"
+        tools:layout="@layout/fragment_malaysia" />
+
+</navigation>

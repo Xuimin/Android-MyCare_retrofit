@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.tracingapp.ui.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_statistics"
+        android:name="com.example.tracingapp.ui.fragment.StatisticsFragment"
+        android:label="fragment_statistics"
+        tools:layout="@layout/fragment_statistics" />
+
+    <fragment
+        android:id="@+id/nav_scan"
+        android:name="com.example.tracingapp.ui.fragment.ScannerFragment"
+        android:label="fragment_scanner"
+        tools:layout="@layout/fragment_scanner" />
+
+    <fragment
+        android:id="@+id/nav_vaccine"
+        android:name="com.example.tracingapp.ui.fragment.VaccinationFragment"
+        android:label="fragment_vaccination"
+        tools:layout="@layout/fragment_vaccination" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.tracingapp.ui.fragment.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

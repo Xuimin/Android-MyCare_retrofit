@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="@dimen/space_10"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="@dimen/space_5"
+    app:cardMaxElevation="@dimen/space_5"
+    app:cardCornerRadius="@dimen/space_5"
+    android:layout_marginTop="@dimen/space_10">
+
+    <LinearLayout
+        android:id="@+id/lv_rv_faq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_faq_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/faq1"
+            android:textColor="@color/primary"
+            android:background="@drawable/bg_on_primary"
+            android:drawableEnd="@drawable/ic_down"
+            android:padding="@dimen/space_10" />
+
+        <TextView
+            android:id="@+id/tv_faq_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/faq1_answer"
+            android:visibility="gone"
+            android:padding="@dimen/space_10" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

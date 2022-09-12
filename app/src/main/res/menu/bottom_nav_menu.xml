@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home" />
+
+    <item android:id="@+id/nav_statistics"
+        android:title="@string/statistic"
+        android:icon="@drawable/ic_stats" />
+
+    <item android:id="@+id/nav_scan"
+        android:title="@string/check_in"
+        android:icon="@drawable/ic_scan" />
+
+    <item android:id="@+id/nav_vaccine"
+        android:title="@string/vaccination"
+        android:icon="@drawable/ic_vaccine" />
+
+    <item android:id="@+id/nav_profile"
+        android:title="@string/profile"
+        android:icon="@drawable/ic_person" />
+</menu>

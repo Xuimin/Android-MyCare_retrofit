@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/space_20">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardUseCompatPadding="true"
+            android:backgroundTint="@color/white"
+            android:elevation="@dimen/space_10"
+            app:cardMaxElevation="@dimen/space_5"
+            android:layout_marginStart="@dimen/space_16"
+            android:layout_marginEnd="@dimen/space_16">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/space_10"
+                tools:context=".ui.menu.DetailsActivity">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/personal_details"
+                    android:textSize="@dimen/font_title"
+                    android:textColor="@color/black"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/notice"
+                    android:textAlignment="center"
+                    android:layout_margin="@dimen/space_10" />
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name"
+                    android:textSize="@dimen/space_10"
+                    android:layout_marginTop="@dimen/space_5" />
+
+                <EditText
+                    android:id="@+id/et_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/ic_lock" />
+
+                <TextView
+                    android:id="@+id/tv_ic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ic"
+                    android:textSize="@dimen/space_10"
+                    android:layout_marginTop="@dimen/space_10" />
+
+                <EditText
+                    android:id="@+id/et_user_ic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:drawableEnd="@drawable/ic_lock" />
+
+                <TextView
+                    android:id="@+id/tv_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/location"
+                    android:textSize="@dimen/space_10"
+                    android:layout_marginTop="@dimen/space_10" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/space_5">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/autoCompleteTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="none"
+                        android:paddingTop="@dimen/space_10"
+                        android:paddingBottom="@dimen/space_10" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/tv_contact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contact"
+                    android:textSize="@dimen/space_10"
+                    android:layout_marginTop="@dimen/space_10" />
+
+                <EditText
+                    android:id="@+id/et_user_contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:drawableEnd="@drawable/ic_lock"
+                    android:drawableTint="@color/primary" />
+
+                <TextView
+                    android:id="@+id/tv_new_pass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_pass"
+                    android:textSize="@dimen/space_10"
+                    android:layout_marginTop="@dimen/space_10" />
+
+                <EditText
+                    android:id="@+id/et_user_new_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Your new password"
+                    android:inputType="textPassword" />
+
+                <TextView
+                    android:id="@+id/tv_new_confirm_pass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/confirm_new_pass"
+                    android:textSize="@dimen/space_10"
+                    android:layout_marginTop="@dimen/space_10" />
+
+                <EditText
+                    android:id="@+id/et_user_new_confirm_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:hint="Confirm your new password" />
+
+                <Button
+                    android:id="@+id/btn_save"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/save"
+                    android:paddingVertical="@dimen/space_5"
+                    android:layout_marginTop="@dimen/space_20"
+                    android:layout_marginBottom="@dimen/space_n5" />
+
+                <Button
+                    android:id="@+id/btn_close"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/close"
+                    android:textColor="@color/primary"
+                    android:backgroundTint="@color/white"
+                    android:onClick="closeActivity"
+                    app:strokeColor="@color/primary"
+                    app:strokeWidth="@dimen/line_height"
+                    android:paddingVertical="@dimen/space_5" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+</layout>
+
